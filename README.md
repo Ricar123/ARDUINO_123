@@ -1,5 +1,5 @@
-# ARDUINO_123
-TIC II EN 2ºBAC.
+# fUNDAMENTOS DE PROGRAMACIÓN
+## TIC II EN 2ºBAC.
 
 ESENCIA DE ESTA MATERIA:
 Esta materia profundizará en la relación entre la teoría del conocimiento y la ciencia de los computadores. A lo largo del curso se abordarán cuestiones tales como:
