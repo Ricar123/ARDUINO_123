@@ -1,7 +1,7 @@
 # TRABAJO DESARROLLADOS POR EL ALUMNO: 
 OBJETIVO 4: Debe poner en práctica los conocimientos adquieridos y demostrar habilidades y destrezas.
 
-## DESARROLLO DEL TRABJO:
+## DESARROLLO DEL TRABAJO:
 El trabajo deberá contenter: PORTADA CON TÍTULO Y NOMBRE, ÍNDICE, DESARROLLO CON IMÁGENES Y CONCLUSIÓN FINAL.
 El alumno deberá identificar (ID) las técnicas que ha usado en el desarrollo del trabajo. 
 El alumno deberá explicar las técnicas, con capturas de pantalla y fotogravías, que se han usado en el desarrollo del producto final, 
