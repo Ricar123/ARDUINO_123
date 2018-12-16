@@ -14,7 +14,7 @@ explicando por qué han sido usados y qué función hace.
 
 ## NIVEL ALCANZADO:
 ### 0 PUNTOS:
-El alumno no alcanza ningún estándar recogido más abajo.
+El alumno no alcanza ninguno de los niveles recogidos más abajo.
 ### 1–4 PUNTOS:  
 Demuestra técnicas de bajo nivel de dificultad. Limitado en su uso explicación. Apenas DES las técnicas utilizadas con exactitud. 
 No ID las fuentes de uso. 
