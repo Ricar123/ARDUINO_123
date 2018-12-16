@@ -1,0 +1,41 @@
+ALUMNO/A:_____________________________________GRUPO:______NOTA:____
+EXAMEN TIC_II. TEMA: "Introducción a la programación con Arduino". 2018-19
+La puntuación máxima para esta prueba es de  [10 puntos].
+DADO EL SIGUIENTE CÓDIGO:
+
+Dado el siguiente Array:
+
+NOMBRES 
+[0] 	[1] 	[2] 	[3] 	[4] 
+Roberto 	Boris 	Juan 	Jorge 	David 
+
+..y el siguiente algoritmo, que construye el reverso de los contenidos del array de NOMBRES: 
+
+N = 5 // número de elementos en el array 
+K = 0 // este es el primer índice en el array 
+loop while K < N – 1 
+  TEMP = NOMBRES[K] 
+  NOMBRES [K] = NOMBRES [N – K –1] 
+  NOMBRES [N – K –1] = TEMP 
+  K = K + 1 
+      end loop
+
+CRITERIO A: "Conocer y Entender" 	[2 Ptos.]
+P1.- Describa completamente UN ARRAY  que se menciona en el código. 
+[1]: ID y tipo de variable. 
+[2]:  DES completa. Cómo  y para qué.  
+
+CRITERIO B: "Procesos. Saber Hacer" 	[4 Ptos.]
+P2.- Describa, paso a paso, cómo funciona este código. (iniciación, configuración y proceso). 
+Escriba el contenido del array  después de cada vuelta (loop).
+[1]: Sólo cierta comprensión del proceso, no enumera paso a paso, sólo es una repetición del código y faltan pasos fundamentales. 
+[2]:  Descripción lógica paso a paso usando la información del código pero carece de algunos detalles. 
+[3]:  Descripción paso a paso detallada de cada una de las partes fundamentales (iniciación, configuración y proceso) 
+[4]:  Descripción completa de todas las partes con desarrollos técnicos más allá del código.
+
+CRITERIO C: "Solución a un problema planteado. Evaluar y Analizar" 	[4 Ptos.]
+P3.-  Describa y evalúe UNA posible solución necesaria para que este algoritmo revierta verdaderamente el contenido del array.  
+[1]:  ID qué tipo de control es necesario pero no lo DES. 
+[2]:  ID y DES la solución utilizando pseudocódigo con  ciertos errores sintácticos.
+[3]:  ID y DES usando un código perfecto.
+[4]:  ID, DES y evalúa otras posibles soluciones. 
