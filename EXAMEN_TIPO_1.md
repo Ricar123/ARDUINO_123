@@ -3,18 +3,28 @@
 La puntuación máxima para esta prueba es de  [10 puntos].
 
 # DADO EL SIGUIENTE CÓDIGO:
-"
+
 int LED=13; 
+
 void setup() {
+
    pinMode(LED, OUTPUT);
+   
 }
+
 void loop() {
+
   digitalWrite(LED, HIGH);  
-  delay(1000);                       
-  digitalWrite(LED_BUILTIN, LOW);    
-  delay(1000);                       
+  
+  delay(1000);  
+  
+  digitalWrite(LED_BUILTIN, LOW); 
+  
+  delay(1000);   
+  
 }
-"
+
+
 # CRITERIO A: "Conocer y Entender" 	[2 Ptos.]
 ## P1.- Describa completamente una variable que se menciona en el código. 
 [1]: ID y tipo de variable. 
