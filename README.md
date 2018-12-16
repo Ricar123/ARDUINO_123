@@ -1,7 +1,7 @@
-# fUNDAMENTOS DE PROGRAMACIÓN
+# FUNDAMENTOS DE PROGRAMACIÓN
 ## TIC II EN 2ºBAC.
 
-ESENCIA DE ESTA MATERIA:
+### ESENCIA DE ESTA MATERIA:
 Esta materia profundizará en la relación entre la teoría del conocimiento y la ciencia de los computadores. A lo largo del curso se abordarán cuestiones tales como:
 	¿Cuál es la diferencia entre datos, información, conocimiento y sabiduría?
 	¿Hasta dónde puede llegar un computador?
@@ -17,7 +17,7 @@ Esta materia profundizará en la relación entre la teoría del conocimiento y l
 	En un acercamiento "reduccionista" usamos los términos "inteligencia" y "juicio". ¿Qué nivel de extensión tiene?.
 	Si usamos una cámara o un micrófono, pueden recibir datos del planeta. ¿Significa esto que un computador puede "percibir el mundo"?. ¿Cómo podrán ser los procesos de percepción similares a los de un humano?.
 
-CONTENIDOS A DESARROLLAR: 
+### CONTENIDOS A DESARROLLAR: 
 1.- SISTEMA DIGITAL.
 2.- COMPUTADORAS.
 3.- PENSAMIENTO COMPUTACIONAL. PROGRAMACIÓN. CONTROL.
@@ -26,14 +26,14 @@ CONTENIDOS A DESARROLLAR:
 6.- SEGURIDAD INFORMÁTICA.
 
 
-OBJETIVOS A EVALUAR: 
+### OBJETIVOS A EVALUAR: 
 1.- CONOCER Y ENTENDER.
 2.- PROCESOS. SABER HACER.
 3.- RESOLUCIÓN DE PROBLEMAS. ANALIZAR Y EVALUAR. 
 4.- DESARROLLAR DESTREZAS.
 
 
-NIVEL ADQUIRIDO POR EL ALUMNO:
+### NIVEL ADQUIRIDO POR EL ALUMNO:
 Calificación 9 o 10
 El alumno demuestra consciencia conceptual, perspicacia, y un conocimiento y una comprensión que resultan evidentes en las habilidades de pensamiento crítico; un nivel alto de capacidad para proporcionar respuestas que están plenamente desarrolladas, estructuradas de manera lógica y coherente, e ilustradas con ejemplos apropiados; un uso preciso de la terminología específica de la asignatura; familiaridad con la literatura de la asignatura; una capacidad para analizar y evaluar indicios y para sintetizar conocimientos y conceptos; consciencia de que existen puntos de vista alternativos, y la capacidad de llegar a conclusiones razonadas aunque inciertas; un alto nivel de competencia para analizar y evaluar datos o resolver problemas. 
 Calificación 8 
