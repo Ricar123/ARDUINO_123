@@ -1,8 +1,6 @@
 # TRABAJO DESARROLLADOS POR EL ALUMNO: 
-El alumno debe saber hacer. Debe poner en práctica los conocimientos adquieridos y demostrar habilidades y destrezas.
+OBJETIVO 4: Debe poner en práctica los conocimientos adquieridos y demostrar habilidades y destrezas.
 
-## OBJETIVO 4: 
-Desarrollar Destrezas. Demostrar conocimientos y habilidades.
 ## DESARROLLO DEL TRABJO:
 El trabajo deberá contenter: PORTADA CON TÍTULO Y NOMBRE, ÍNDICE, DESARROLLO CON IMÁGENES Y CONCLUSIÓN FINAL.
 El alumno deberá identificar (ID) las técnicas que ha usado en el desarrollo del trabajo. 
