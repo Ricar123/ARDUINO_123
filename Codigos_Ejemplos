@@ -1,0 +1,417 @@
+//MONITORIZACIÓN ANALÓGICA.
+void setup() {
+  Serial.begin(9600);
+  pinMode(A0,INPUT);
+}
+void loop() {
+    int sensorValue = analogRead(A0);
+    Serial.println(sensorValue);
+    delay(10);        
+}
+
+
+
+//BLINK
+int LED=13; 
+void setup() {
+   pinMode(LED, OUTPUT);
+}
+void loop() {
+  digitalWrite(LED, HIGH);  
+  delay(1000);                       
+  digitalWrite(LED_BUILTIN, LOW);    
+  delay(1000);                       
+}
+
+
+
+//BLINK CON VARIABLE
+int t=1000; 
+void setup() {
+  pinMode (13, OUTPUT);
+}
+void loop() {
+digitalWrite(13,HIGH);
+delay(t);
+digitalWrite(13,LOW);
+delay(t); 
+}
+
+//BLINK VARIABLE CON LOOP
+int ledPin=13;
+int n=0;
+void setup() {
+        pinMode(ledPin,OUTPUT);
+}
+void loop() {
+            digitalWrite(ledPin, HIGH);
+            delay(1000);
+            digitalWrite(ledPin,LOW);
+            n++;
+           delay(n*100);
+} 
+
+
+
+//FADE CON DOS FOR
+int ledPin = 9; // pin PWM para el LED 
+void setup(){} // no es necesario configurar nada 
+void loop() { 
+        for (int i=0; i<=255; i++) {      
+       analogWrite(ledPin, i);  
+      delay(100); 
+       } 
+      for (int i=255; i>=0; i--) {      
+      analogWrite(ledPin, i);  
+     delay(100); 
+     } 
+}
+
+
+
+//FADE 
+int led = 9;           
+int brillo = 0;    
+int diferencia = 5;    
+void setup() {
+  pinMode(led, OUTPUT);
+}
+void loop() {
+  analogWrite(led, brillo);
+  brillo = brillo + diferencia;
+     if (brillo <= 0 || brillo >= 255) {
+       diferencia = -diferencia;
+     }
+  delay(30);
+}
+
+
+
+//MONITORIZACIÓN PULSADOR
+int  pulsador = 2;
+void setup() {
+   Serial.begin(9600);
+   pinMode(pulsador, INPUT);
+}
+void loop() {
+   int estado = digitalRead(pulsador);
+   Serial.println(estado);
+   delay(10);        
+}
+
+
+
+
+//PULSADOR Y LED
+const int buttonPin = 2;     
+const int ledPin =  13;      
+int buttonState = 0;         
+void setup() {
+   pinMode(ledPin, OUTPUT);
+   pinMode(buttonPin, INPUT);
+}
+void loop() {
+   buttonState = digitalRead(buttonPin);
+   if (buttonState == HIGH) {
+        digitalWrite(ledPin, HIGH);
+  } else {
+       digitalWrite(ledPin, LOW);
+  }
+}
+
+
+
+
+//TECLADO Y LED
+int TECLA=52; //valor ASCII inicial "4"
+int ESTADO=0; 
+void setup(){
+  pinMode(13, OUTPUT);
+  Serial.begin(9600);
+}
+void loop(){
+    if (Serial.available()>0) {  
+    delay(100);
+    TECLA=Serial.read();
+    delay(2000);
+    if (TECLA==49){  //es decir,  "1"
+      ESTADO=1;
+      Serial.write(TECLA);
+      Serial.println("Encendido!! ");
+      delay(200);
+    }
+    else {
+      ESTADO=0;
+      //Serial.write(TECLA);
+      delay(200);
+      Serial.print(TECLA,DEC);
+      Serial.println("Apagado!! ");
+      delay(200);
+    }
+    }
+  digitalWrite(13,ESTADO);
+  delay(200);
+}
+
+
+//PROGRESIÓN ARITMÉTICA
+for (int a=0; a<=10; a++) {
+   Seria.println(a);
+}
+
+
+
+//PULSADOR Y ALTERNA BLINK DOS LEDS
+int ledUno=5;
+int ledDos=6;
+int pulsador=10;
+void setup() {
+    pinMode (ledUno, OUTPUT);
+   pinMode (ledDos, OUTPUT);
+   pinMode (pulsador, INPUT);
+}
+void loop(){
+  while (dititalRead(pulsador==HIGH) {
+     digitalWrite (ledUno, HIGH);
+     digitalWrite (ledDos, LOW);
+     delay(500);
+     digitalWrite (ledUno, LOW);
+     digitalWrite (ledDos, HIGH);
+    delay(500);
+    }
+
+
+//COCHE FANTÁSTICO
+void setup() {
+    pinMode (13,OUTPUT);
+    pinMode (12,OUTPUT);
+    pinMode (11,OUTPUT);
+    pinMode (10,OUTPUT);
+    pinMode (9,OUTPUT);
+}
+void loop(){
+   for (int i=9;i<15;i++){
+       digitalWrite(i,HIGH); //enciende el led_i
+       digitalWrite(i-1,LOW); //apaga el led anterior
+       }
+}
+
+
+
+//CONTROL LEDES CON FOR
+int timer = 100;    
+void setup() {  //  for to initialize each pin as an output
+  for (int thisPin = 2; thisPin < 8; thisPin++) {
+    pinMode(thisPin, OUTPUT);
+  }
+}
+void loop() {  // loop from the lowest pin to the highest
+  for (int thisPin = 2; thisPin < 8; thisPin++) {
+    digitalWrite(thisPin, HIGH);
+    delay(timer);
+    digitalWrite(thisPin, LOW);
+  }
+  // loop from the highest pin to the lowest
+  for (int thisPin = 7; thisPin >= 2; thisPin--) {
+    digitalWrite(thisPin, HIGH);
+    delay(timer);
+    digitalWrite(thisPin, LOW);
+  }
+}
+
+//LED CON PULSADOR Y ENCLAVAMIENTO
+#define pinPulsador 5
+#define pinLed 13
+int  estadoAnterior=0;
+int  estadoNuevo;
+int  estadoLed=LOW;
+void setup( ) {
+	Serial.begin(9600);
+	pinMode(pinPulsador, INPUT);      
+	pinMode(pinLed,OUTPUT);               
+}
+void loop() {
+   estadoNuevo=  digitalRead(pinPulsador);   
+   if ((estadoAnterior==0) && (estadoNuevo==1)) {
+        cambiarEstado();
+    } 
+ estadoAnterior=estadoNuevo;  //actualizamos el estado del pulsador
+ delay(10);                                                
+}
+void cambiarEstado() {    
+    if (estadoLed==LOW) {       
+        digitalWrite(pinLed,HIGH);
+        estadoLed=HIGH;          
+        Serial.println ("El Pulsador ha sido  presionado");
+    }
+   else {       //si el led está encendido lo apagamos
+        digitalWrite(pinLed, LOW);
+        estadoLed=LOW;    //ahora el estado del led es de apagado
+   }
+}
+
+
+//CONTADOR DE PRESIONADOS
+int swPin=2;
+int val;
+int botonEstado;
+int botonPresiones; 
+void setup(){
+	Serial.begin(9600);
+	pinMode(swPin, INPUT);    
+	botonEstado=digitalRead(swPin);   
+}
+void loop(){ 
+      val=digitalRead(swPin);
+      if (val !=botonEstado)  {    //si cambia de estado
+             if (val==LOW) {
+                 botonPresiones++;
+                 Serial.println("El botón ha sido presionado");
+                 Serial.println(botonPresiones); 
+                 Serial.println("veces"); 
+            }
+      }
+     botonEstado=val;   //conserva como nuevo el estado 
+}
+
+
+//CUENTA HACIA ATRAS 10 Y ACABE ESCRIBIENDO "BOOM"
+
+
+//SÓLO EN PRESIONADOS PARES
+int swPin=2;
+int estadoActual;
+int estadoAnterior;
+int contador;
+void setup(){
+serial.begin(9600);
+pinMode(swPin, INPUT);
+}
+void loop(){ 
+      estadoActual=digitalRead(swPin);
+      if (estadoAnterior !=estadoActual){  //si cambia de estado 
+             contador++; //cuenta los cambios pares
+             int validarPar=contador%2; //solo  cambios pares
+             if (validarPar !=1){  //solo cambios pares
+             serial.Println("El botón ha sido presionado");
+             serial.Println(contador); 
+            serial.Println("veces"); 
+            }
+      }
+}
+
+
+//TONOS CON ARRAY
+int sonidoPin=9;
+int numeroTono=7;
+int  tono[]={261,294,329,349,440,493};
+void setup(){
+}
+void loop() { 
+  for (int i=0; i<numeroTono;i++) {
+  tone(sonidoPin,tono[i]);
+  delay(2000);
+}  
+} 
+
+//"CARROS DE FUEGO" CON ARRAY
+int speakerPin = 13; 
+int numTones = 10;  // para probar tonos en setup()
+int tones[] = {261, 277, 294, 311, 330, 349, 370, 392, 415, 440};
+int numSong=26;  // para melodía de carros de fuego
+int song[] = {261, 349, 392, 440, 392, 330, -10, 261, 349, 392, 440, 392, -10, -10, 261, 349, 392, 440, 392, 330, -10, 330, 349, 330, 261, 261};
+void setup(){  // damos  frecuencia  según vector de tonos.
+  for (int i = 0; i < numTones; i++)  {
+    tone(speakerPin, tones[i]);  //tonos simples
+    delay(500);
+  }
+  noTone(speakerPin);
+  delay (2000);
+}
+void loop(){
+for (int i = 0; i < numSong; i++)  {
+    tone(speakerPin, song[i]);  //carros de fuego
+    delay(500);
+  }
+  noTone(speakerPin);
+ }
+
+
+//MONTACARGAS si un pulsador sólo es dado pero no 
+//si se dan a la vez.
+int var1 = 1;   //Pin de entrada del pulsador 1
+int var2 = 2;   //Pin de entrada del pulsador 1
+int led = 5;    //Pin de salida para el led(rojo)
+int A = 0;    //Para almacenar el estado de la variable1
+int B = 0;    //Para almacenar el estado de la variable2
+int resultado = 0;  //Para almacenar el resultado     
+void setup() {
+  pinMode(var1, INPUT);     //Init pin de entrada 1 como salida
+  pinMode(var2, INPUT);     //Init pin de entrada 2 como salida 
+  pinMode(led, OUTPUT);     //Iniciliza el pin del led como salida 
+}
+void loop(){
+  A = digitalRead(var1);  //Lee el estado 1 y lo almacena
+  B = digitalRead(var2);  //Lee el estado 2 y lo almacena
+  //Función Lógica ------  R=(â*b)+(a*^b) 
+  resultado = (!A && B) || (A && !B);
+  digitalWrite(led, resultado);    //Escribimos el resultado en el led
+}
+
+//RGB CON FUNCIÓN PROPIA
+int redPin = 11;       //PWM
+int greenPin = 10;   //PWM
+int bluePin = 9;       //PWM
+void setup() {
+  pinMode(redPin, OUTPUT);
+  pinMode(greenPin, OUTPUT);
+  pinMode(bluePin, OUTPUT);
+}
+void loop() {
+setColor(255, 0, 0); // red
+delay(1000);
+setColor(0, 255, 0); // green
+delay(1000);
+setColor(0, 0, 255); // blue
+delay(1000);
+setColor(255, 255, 0); // yellow
+delay(1000);
+setColor(80, 0, 80); // purple
+delay(1000);
+setColor(0, 255, 255); // aqua
+delay(1000);
+}
+void setColor(int red, int green, int blue) {
+  analogWrite(redPin, red);
+  analogWrite(greenPin, green);
+  analogWrite(bluePin, blue);
+}
+
+
+//CONTROL ANALÓCIGO CON CONDICIONAL
+const int analogPin = A0;    
+const int ledPin = 13;       
+const int threshold = 400;   
+void setup() {
+   pinMode(ledPin, OUTPUT);
+   Serial.begin(9600);
+}
+void loop() {
+   int analogValue = analogRead(analogPin);
+  if (analogValue > threshold) {
+    digitalWrite(ledPin, HIGH);
+  } else {
+    digitalWrite(ledPin, LOW);
+  }
+  Serial.println(analogValue);
+  delay(1);        
+}
+int timer = 100;           // The higher the number, the slower the timing.
+void setup() {
+  // use a for loop to initialize each pin as an output:
+  for (int thisPin = 2; thisPin < 8; thisPin++) {
+    pinMode(thisPin, OUTPUT);
+  }
+}
+
+
