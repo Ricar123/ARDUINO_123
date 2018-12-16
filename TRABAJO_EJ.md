@@ -22,5 +22,5 @@ No ID las fuentes de uso.
 Existe un cierto nivel de complejidad en las herramientas utilizadas. Explica cómo y para qué con imágenes y comentarios. ID la fuente de sus 
 recursos. 
 ### 8–10 PUNTOS:
-Demuuestra saber hacer con un alto nivel de dificultad. Es preciso en explicar detalladamente el cómo lo ha hecho. Aporta detalles más allá de lo fundamental. 
+Demuestra saber hacer con un alto nivel de dificultad. Es preciso en explicar detalladamente el cómo lo ha hecho. Aporta detalles más allá de lo fundamental. 
 ID todas las fuentes que ha utilizado. 
