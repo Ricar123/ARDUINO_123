@@ -17,13 +17,7 @@ Esta materia profundizará en la relación entre la teoría del conocimiento y l
 	En un acercamiento "reduccionista" usamos los términos "inteligencia" y "juicio". ¿Qué nivel de extensión tiene?.
 	Si usamos una cámara o un micrófono, pueden recibir datos del planeta. ¿Significa esto que un computador puede "percibir el mundo"?. ¿Cómo podrán ser los procesos de percepción similares a los de un humano?.
 
-OBJETIVOS A EVALUAR: 
-1.- CONOCER Y ENTENDER.
-2.- PROCESOS. SABER HACER.
-3.- RESOLUCIÓN DE PROBLEMAS. ANALIZAR Y EVALUAR. 
-4.- DESARROLLAR DESTREZAS.
-
-CONTENIDOS: 
+CONTENIDOS A DESARROLLAR: 
 1.- SISTEMA DIGITAL.
 2.- COMPUTADORAS.
 3.- PENSAMIENTO COMPUTACIONAL. PROGRAMACIÓN. CONTROL.
@@ -31,4 +25,27 @@ CONTENIDOS:
 5.- REDES Y WEB.
 6.- SEGURIDAD INFORMÁTICA.
 
+
+OBJETIVOS A EVALUAR: 
+1.- CONOCER Y ENTENDER.
+2.- PROCESOS. SABER HACER.
+3.- RESOLUCIÓN DE PROBLEMAS. ANALIZAR Y EVALUAR. 
+4.- DESARROLLAR DESTREZAS.
+
+
+NIVEL ADQUIRIDO POR EL ALUMNO:
+Calificación 9 o 10
+El alumno demuestra consciencia conceptual, perspicacia, y un conocimiento y una comprensión que resultan evidentes en las habilidades de pensamiento crítico; un nivel alto de capacidad para proporcionar respuestas que están plenamente desarrolladas, estructuradas de manera lógica y coherente, e ilustradas con ejemplos apropiados; un uso preciso de la terminología específica de la asignatura; familiaridad con la literatura de la asignatura; una capacidad para analizar y evaluar indicios y para sintetizar conocimientos y conceptos; consciencia de que existen puntos de vista alternativos, y la capacidad de llegar a conclusiones razonadas aunque inciertas; un alto nivel de competencia para analizar y evaluar datos o resolver problemas. 
+Calificación 8 
+El alumno demuestra un conocimiento y una comprensión detallados; respuestas coherentes que están estructuradas de manera lógica y bien desarrolladas; un uso coherente de la terminología adecuada; una capacidad para analizar, evaluar y sintetizar conocimientos y conceptos; conocimiento de estudios de investigación, teorías y cuestiones pertinentes, y consciencia de que existen perspectivas y contextos diferentes a partir de los cuales estos fueron desarrollados; indicios sólidos de pensamiento crítico; una capacidad para analizar y evaluar datos o resolver problemas de manera competente. 
+Calificación 7 
+El alumno demuestra un buen conocimiento y una buena comprensión de la asignatura utilizando terminología específica de la asignatura; respuestas que están estructuradas de manera lógica y coherente pero que no están plenamente desarrolladas; una capacidad para proporcionar respuestas competentes con algún intento de integrar conocimientos y conceptos; una tendencia a ser más descriptivo que evaluativo, aunque se demuestra cierta capacidad para presentar y desarrollar puntos de vista opuestos; algunos indicios de pensamiento crítico; una capacidad para analizar y evaluar datos o resolver problemas. 
+Calificación 6 
+El alumno demuestra un conocimiento y una comprensión sólidos de la asignatura que va más allá de la mera mención de puntos aislados, incompletos, irrelevantes o de “sentido común”; cierta capacidad para estructurar respuestas pero no lo suficientemente claras y posiblemente con algunas repeticiones; una capacidad para expresar conocimiento y comprensión con terminología específica de la asignatura; cierta comprensión de la manera en que los hechos o las ideas pueden estar relacionados e integrados en principios y conceptos; cierta capacidad para desarrollar ideas y fundamentar afirmaciones; un uso de conocimientos y comprensión que resulta más descriptivo que analítico; cierta capacidad para compensar las lagunas en el conocimiento y la comprensión mediante una aplicación o evaluación rudimentaria de ese conocimiento; una capacidad para interpretar datos o resolver problemas y cierta capacidad para realizar análisis y evaluación. 
+Calificación 4 
+El alumno demuestra cierto conocimiento y cierta comprensión de la asignatura; una noción básica de estructura que no se mantiene a lo largo de las respuestas; un uso básico de la terminología apropiada para la asignatura; cierta capacidad para establecer vínculos entre los hechos o las ideas; cierta capacidad para comprender datos o resolver problemas. 
+Calificación 3 
+El alumno demuestra un conocimiento y una comprensión limitados de la asignatura; cierta noción de estructura en las respuestas; un uso limitado de la terminología apropiada para la asignatura; una capacidad limitada para establecer vínculos entre los hechos o las ideas; una capacidad básica para comprender datos o resolver problemas. 
+Calificación 2 
+El alumno demuestra un conocimiento y una comprensión muy limitados de la asignatura; casi ninguna estructura organizativa en las respuestas; un uso inapropiado o inadecuado de la terminología; una capacidad limitada para comprender datos o resolver problemas.
 
