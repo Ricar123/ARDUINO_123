@@ -1,4 +1,4 @@
-# TRABAJO DESARROLLADOS POR EL ALUMNO: 
+# TRABAJO DESARROLLADO POR EL ALUMNO: 
 OBJETIVO 4: El estudiante debe poner en práctica los conocimientos adquiridos y demostrar habilidades y destrezas.
 
 ## DESARROLLO DEL TRABAJO:
