@@ -2,10 +2,15 @@
 OBJETIVO 4: El estudiante debe poner en práctica los conocimientos adquiridos y demostrar habilidades y destrezas.
 
 ## DESARROLLO DEL TRABAJO:
-El trabajo deberá contenter: PORTADA CON TÍTULO Y NOMBRE, ÍNDICE, DESARROLLO CON IMÁGENES Y CONCLUSIÓN FINAL.
+El trabajo deberá subirse en este repositorio en PDF y con los siguientes apartados: 
+### 1.-PORTADA CON TÍTULO Y NOMBRE.
+### 2.- ÍNDICE
+### 3.- DESARROLLO CON IMÁGENES.
 El alumno deberá identificar (ID) las técnicas que ha usado en el desarrollo del trabajo. 
 El alumno deberá explicar las técnicas, con capturas de pantalla y fotogravías, que se han usado en el desarrollo del producto final, 
-explicando por qué han sido usados y qué función hace. 
+explicando por qué han sido usados y qué función hace.
+### 4.- CONCLUSIÓN FINAL.
+ 
 
 ## NIVEL ALCANZADO:
 ### 0 PUNTOS:
