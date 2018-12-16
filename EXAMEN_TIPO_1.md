@@ -3,6 +3,7 @@
 La puntuación máxima para esta prueba es de  [10 puntos].
 
 # DADO EL SIGUIENTE CÓDIGO:
+
 int LED=13; 
 void setup() {
    pinMode(LED, OUTPUT);
